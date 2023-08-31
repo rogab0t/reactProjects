@@ -37,12 +37,16 @@ const Header = ({ className }) => {
               desarrollador Frontend
             </Title>
             <Row>
-              <PrimaryButton>Mis proyectos</PrimaryButton>
-              <SecondaryButton>Descarga mi CV</SecondaryButton>
+              <PrimaryButton onClick={() => {
+                window.open('https://rogab0t.github.io/#projects', '_blank');
+              }}>Mis proyectos</PrimaryButton>
+              <SecondaryButton onClick={() => {
+                window.open('./Resume_ESP.pdf', '_blank');
+              }}>Descarga mi CV</SecondaryButton>
             </Row>
             <ArticlesLink />
           </div>
-          <CircleImage src={"./" + myImage} />
+          <CircleImage src={"." + myImage} />
         </RowsContainer>
       </Container>
     </header>
