@@ -42,7 +42,7 @@ const Header = ({ className }) => {
             </Row>
             <ArticlesLink />
           </div>
-          <CircleImage src={myImage} />
+          <CircleImage src={"./" + myImage} />
         </RowsContainer>
       </Container>
     </header>
