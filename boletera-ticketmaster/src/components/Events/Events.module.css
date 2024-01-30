@@ -1,0 +1,22 @@
+.eventsContainer {
+  margin-top: 16vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.eventsTitle {
+    font-size: 32px;
+}
+
+@media (max-width: 430px) {
+  .eventsContainer {
+    padding: 0;
+  }
+
+  .eventsTitle {
+    text-align: left;
+    padding-left: 1rem;
+}
+}

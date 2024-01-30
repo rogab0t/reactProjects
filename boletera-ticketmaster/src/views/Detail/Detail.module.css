@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainInfoContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 85%;
+  padding: 0 2rem;
+}
+
+.eventImage {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+}
+
+.eventName {
+  margin: 12px 0;
+  font-size: 28px;
+}
+
+.eventInfo {
+  text-align: left;
+  margin: 4px 0;
+}
+
+.eventDate {
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.seatInfoContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.seatmapTitle {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.seatmapImg {
+  width: 100%;
+}
+
+.pleaseNoteContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 85%;
+  padding: 0 2rem;
+}
+
+.pleaseNoteLegend {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.pricesRangesLegend {
+  margin: 0;
+}
+
+.buyTicketsButton {
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #ffffff;
+  margin: 1rem 2rem;
+}
+
+.buyTicketsButton:hover {
+  border-color: #646cff;
+}

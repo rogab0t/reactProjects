@@ -1,0 +1,38 @@
+.active {
+  border-bottom: 1px solid #fff;
+}
+
+.profileNavContainer {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  max-width: 1280px;
+  height: 10vh;
+  background-color: #242424;
+  padding-top: 35px;
+}
+
+.tabsContainer {
+  margin: 12px 0;
+}
+
+.tab {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.tab:hover {
+  opacity: 0.8;
+}
+
+.homeLink{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 2px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
