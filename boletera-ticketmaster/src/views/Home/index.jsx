@@ -45,14 +45,14 @@ const Home = () => {
   const renderEvents = () => {
     if (isLoading) {
       return <div style={{
-        marginTop: '17vh',
+        marginTop: '20vh',
       }}>Cargando resultados...</div>
     }
     
     if (error) {
       return (
         <div style={{
-          marginTop: '17vh',
+          marginTop: '20vh',
         }}>
           <p>Ha ocurrido un error</p>
           <button onClick={() => window.location.reload()}>Recargar</button>

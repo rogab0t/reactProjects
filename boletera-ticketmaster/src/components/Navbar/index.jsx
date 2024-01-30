@@ -5,8 +5,8 @@ import styled from 'styled-components';
 
 const NavContainer = styled.div`
   box-sizing: border-box;
-  height: 16vh;
-  max-height: 110px;
+  height: 20vh;
+  max-height: 155px;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -21,17 +21,17 @@ const NavContainer = styled.div`
   grid-template-areas:
   "logo search profile"
   ;
-  padding: 20px 2rem 0;
+  padding: 20px 2rem;
   gap: 2rem;
 
   @media (max-width: 430px) {
-    grid-template-rows: 7vh;
+    grid-template-rows: 4vh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
      "logo profile"
      "search search"
     ;
-    padding: 20px 1rem 0;
+    padding: 40px 1rem;
     gap: 1rem;
   }
 `;

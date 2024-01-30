@@ -46,7 +46,7 @@ const LikedEvents = () => {
 
   if (isLoading) {
     return <div style={{
-      paddingTop: '15vh',
+      paddingTop: '20vh',
     }}>Cargando...</div>
   }
 
@@ -54,7 +54,7 @@ const LikedEvents = () => {
     return (
       <>
         <div style={{
-          paddingTop: '15vh',
+          paddingTop: '20vhh',
         }}>No hay eventos favoritos :(</div>
         <button onClick={() => window.location.reload()}>Recargar</button>
       </>
@@ -65,7 +65,7 @@ const LikedEvents = () => {
     return (
       <>
         <div style={{
-          paddingTop: '15vh',
+          paddingTop: '20vh',
         }}>Ha ocurrido un error</div>
         <button onClick={() => window.location.reload()}>Recargar</button>
       </>
@@ -75,7 +75,7 @@ const LikedEvents = () => {
   return (
     <ScrollHandler>
       <div style={{
-        padding: '15vh 0 35px 0',
+        padding: '20vh 0 35px 0',
         display: 'flex',
         flexDirection: 'column',
         gap: '24px',
