@@ -46,7 +46,7 @@ const LikedEvents = () => {
 
   if (isLoading) {
     return <div style={{
-      paddingTop: '20vh',
+      paddingTop: '155px',
     }}>Cargando...</div>
   }
 
@@ -54,7 +54,7 @@ const LikedEvents = () => {
     return (
       <>
         <div style={{
-          paddingTop: '20vhh',
+          paddingTop: '155px',
         }}>No hay eventos favoritos :(</div>
         <button onClick={() => window.location.reload()}>Recargar</button>
       </>
@@ -65,7 +65,7 @@ const LikedEvents = () => {
     return (
       <>
         <div style={{
-          paddingTop: '20vh',
+          paddingTop: '155px',
         }}>Ha ocurrido un error</div>
         <button onClick={() => window.location.reload()}>Recargar</button>
       </>
