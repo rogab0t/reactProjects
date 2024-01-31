@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const NavContainer = styled.div`
   box-sizing: border-box;
-  height: 20vh;
+  height: 25vh;
   max-height: 155px;
   width: 100vw;
   position: fixed;

@@ -77,7 +77,7 @@ const Home = () => {
             breakLabel="..."
             nextLabel=">"
             onPageChange={handlePageClick}
-            pageRangeDisplayed={4}
+            pageRangeDisplayed={3}
             pageCount={page.totalPages}
             previousLabel="<"
             forcePage={currentPage}
