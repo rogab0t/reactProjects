@@ -36,7 +36,6 @@ const NavContainer = styled.div`
   }
 `;
 
-
 const Navbar = ({ onSearch }) => {
   //const [search, setSearch] = useState(localStorage.getItem("searchTermLocal") ?? "");
   
