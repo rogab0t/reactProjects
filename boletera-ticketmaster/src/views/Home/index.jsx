@@ -90,7 +90,7 @@ const Home = () => {
   
   return (
     <>
-      <Navbar onSearch={handleNavbarSearch} />
+      <Navbar onSearch={handleNavbarSearch} dataEvents={data}/>
       {renderEvents()}
     </>
   );

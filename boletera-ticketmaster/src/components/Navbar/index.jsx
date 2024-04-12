@@ -1,4 +1,5 @@
 //import { useState } from "react";
+import FilterComponent from "../Filter";
 import { Link } from "react-router-dom";
 import { mainRoute } from '../../utils/constants';
 import styled from 'styled-components';
@@ -15,21 +16,21 @@ const NavContainer = styled.div`
   max-width: 1280px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr auto auto;
   justify-items: center;
   align-items: center;
   grid-template-areas:
-  "logo search profile"
+  "logo search filter profile"
   ;
   padding: 20px 2rem;
   gap: 2rem;
 
   @media (max-width: 430px) {
     grid-template-rows: 4vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-     "logo profile"
-     "search search"
+     "logo logo profile"
+     "search search filter"
     ;
     padding: 40px 1rem;
     gap: 1rem;
@@ -82,10 +83,11 @@ const Navbar = ({ onSearch }) => {
           }}
         />
       </div>
+      <FilterComponent />
       <Link to={mainRoute + "profile/my-info"} style={{
           color: "#fff",
           textDecoration: "none",
-          width: 100,
+          width: "100px",
           marginLeft: 'auto',
           border: "1px solid #fff",
           padding: "3px 9px",
