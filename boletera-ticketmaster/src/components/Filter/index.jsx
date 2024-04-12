@@ -25,7 +25,7 @@ const FilterComponent = () => {
         style={{
         color: "rgb(255, 255, 255)",
         textDecoration: "none",
-        width: "100px",
+        width: "100%",
         marginLeft: "auto",
         border: "1px solid rgb(255, 255, 255)",
         padding: "3px 9px",
@@ -33,7 +33,7 @@ const FilterComponent = () => {
         cursor: "pointer",
         fontSize: "15px",
         }}
-        onFocus={handleFilterClick}
+        onClick={handleFilterClick}
         onBlur={handleBlur}
       >
         <span style={{
@@ -60,27 +60,34 @@ const FilterComponent = () => {
           <ul style={{
             margin: "0",
             listStyle: "none",
-            padding: "3px 9px"
+            padding: "9px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "9px"
           }}>
             <li style={{
               cursor: "pointer",
               width: "fit-content"
             }}
-            >classification</li>
+            onClick={() => alert("Not available")}
+            >Classification</li>
             <li style={{
               cursor: "pointer",
               width: "fit-content"
             }}
+            onClick={() => alert("Not available")}
             >Country</li>
             <li style={{
               cursor: "pointer",
               width: "fit-content"
             }}
+            onClick={() => alert("Not available")}
             >Type</li>
             <li style={{
               cursor: "pointer",
               width: "fit-content"
             }}
+            onClick={() => alert("Not available")}
             >Address</li>
           </ul>
         </div>
